@@ -1,22 +1,22 @@
 console.clear();
 
-const gazanfar = {
-    name: 'Gazanfar',
-    age: 73,
+const elvin = {
+    name: 'Elvin',
+    age: 37,
     gender: 'male',
 }
 
 const users = [
     {
-        name: 'Gazanfar',
-        gender: 'male'
-    },
-    {
         name: 'Anar',
         gender: 'male'
     },
     {
-        name: 'Aisha',
+        name: 'Ismayil',
+        gender: 'male'
+    },
+    {
+        name: 'Aytan',
         gender: 'female'
     },
 ];
