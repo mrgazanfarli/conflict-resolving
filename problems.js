@@ -47,7 +47,32 @@ function removeValueFromArray(array, value) {
     return j;
 }
 
-console.log(removeValueFromArray([1, 2, 3, 3, 4, 6, 3, 7], 3));
+// console.log(removeValueFromArray([1, 2, 3, 3, 4, 6, 3, 7], 3));
 
+function power(number, pow) {
+    let result = 1;
 
+    if (pow === 0) {
+        return 1;
+    }
 
+    if (number === 0) {
+        return 0;
+    }
+
+    if (pow > 0) {
+        while (pow > 0) {
+            result *= number;
+            pow--;
+        }
+    } else {
+        while (pow < 0) {
+            result /= number;
+            pow++;
+        }
+    }
+
+    return result;
+}
+
+console.log(power(2, 0));
